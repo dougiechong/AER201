@@ -1,0 +1,152 @@
+MPLINK 4.43, Linker
+Linker Map File - Created Mon Feb 04 00:53:10 2013
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000100    program   0x00020c
+                    .code       code   0x000206    program   0x000290
+.config_2007_BUILD/DEFAULT/PRODUCTION/_EXT/14       code   0x002007    program   0x000002
+               .udata_shr      udata   0x000070       data   0x000008
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000100    0x00034d      
+                            0x002007    0x002007      
+            594 out of 8454 program addresses used, program memory utilization is 7%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   ClrLCD   0x000224    program     extern ..\lcd.asm               
+                  InitLCD   0x000206    program     extern ..\lcd.asm               
+                 LLD_LOOP   0x000249    program     static ..\lcd.asm               
+                     OneS   0x0001f6    program     static ..\main.asm              
+                   RD_END   0x0002e6    program     static ..\i2c_common.asm        
+                   RD_ERR   0x0002e5    program     static ..\i2c_common.asm        
+                    R_END   0x000348    program     static ..\i2c_common.asm        
+                  WR_DATA   0x000236    program     extern ..\lcd.asm               
+                   WR_END   0x000297    program     static ..\i2c_common.asm        
+                   WR_ERR   0x000296    program     static ..\i2c_common.asm        
+                   WR_INS   0x000227    program     extern ..\lcd.asm               
+                    W_END   0x00031e    program     static ..\i2c_common.asm        
+              _.code_0010   0x000260    program     static ..\i2c_common.asm        
+              _.code_0016   0x000266    program     static ..\i2c_common.asm        
+              _.code_001E   0x00026e    program     static ..\i2c_common.asm        
+              _.code_002E   0x00027e    program     static ..\i2c_common.asm        
+              _.code_003E   0x00028e    program     static ..\i2c_common.asm        
+              _.code_0046   0x00024c    program     static ..\lcd.asm               
+              _.code_004B   0x00029b    program     static ..\i2c_common.asm        
+              _.code_0051   0x0002a1    program     static ..\i2c_common.asm        
+              _.code_0059   0x0002a9    program     static ..\i2c_common.asm        
+              _.code_0069   0x0002b9    program     static ..\i2c_common.asm        
+              _.code_0074   0x0002c4    program     static ..\i2c_common.asm        
+              _.code_007C   0x0002cc    program     static ..\i2c_common.asm        
+              _.code_0087   0x0002d7    program     static ..\i2c_common.asm        
+              _.code_0093   0x0002e3    program     static ..\i2c_common.asm        
+              _.code_009A   0x0002ea    program     static ..\i2c_common.asm        
+              _.code_00AE   0x0002fe    program     static ..\i2c_common.asm        
+              _.code_00B6   0x000306    program     static ..\i2c_common.asm        
+              _.code_00C6   0x000316    program     static ..\i2c_common.asm        
+              _.code_00D2   0x000322    program     static ..\i2c_common.asm        
+              _.code_00D8   0x000328    program     static ..\i2c_common.asm        
+              _.code_00E0   0x000330    program     static ..\i2c_common.asm        
+              _.code_00EB   0x00033b    program     static ..\i2c_common.asm        
+              _.code_00F7   0x000347    program     static ..\i2c_common.asm        
+              _.code_00FC   0x00034c    program     static ..\i2c_common.asm        
+             _.org_1_01FD   0x0001fd    program     static ..\main.asm              
+             _.org_1_01FF   0x0001ff    program     static ..\main.asm              
+             _.org_1_0202   0x000202    program     static ..\main.asm              
+                 _0OneS_0   0x0001fc    program     static ..\main.asm              
+         i2c_common_setup   0x000250    program     extern ..\i2c_common.asm        
+                     init   0x000100    program     static ..\main.asm              
+             lcdLongDelay   0x000247    program     static ..\lcd.asm               
+                 p2p_read   0x000324    program     extern ..\i2c_common.asm        
+                p2p_write   0x0002fa    program     extern ..\i2c_common.asm        
+                 read_rtc   0x00029d    program     extern ..\i2c_common.asm        
+              rtc_convert   0x0002ec    program     extern ..\i2c_common.asm        
+             set_rtc_time   0x00018e    program     static ..\main.asm              
+                 show_RTC   0x00012e    program     static ..\main.asm              
+                write_rtc   0x000262    program     extern ..\i2c_common.asm        
+                   COUNTH   0x000075       data     static ..\main.asm              
+                   COUNTL   0x000077       data     static ..\main.asm              
+                   COUNTM   0x000076       data     static ..\main.asm              
+                      com   0x000073       data     static ..\lcd.asm               
+                      dat   0x000074       data     static ..\lcd.asm               
+                   lcd_d1   0x000071       data     static ..\lcd.asm               
+                   lcd_d2   0x000072       data     static ..\lcd.asm               
+                  lcd_tmp   0x000070       data     static ..\lcd.asm               
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     init   0x000100    program     static ..\main.asm              
+                 show_RTC   0x00012e    program     static ..\main.asm              
+             set_rtc_time   0x00018e    program     static ..\main.asm              
+                     OneS   0x0001f6    program     static ..\main.asm              
+                 _0OneS_0   0x0001fc    program     static ..\main.asm              
+             _.org_1_01FD   0x0001fd    program     static ..\main.asm              
+             _.org_1_01FF   0x0001ff    program     static ..\main.asm              
+             _.org_1_0202   0x000202    program     static ..\main.asm              
+                  InitLCD   0x000206    program     extern ..\lcd.asm               
+                   ClrLCD   0x000224    program     extern ..\lcd.asm               
+                   WR_INS   0x000227    program     extern ..\lcd.asm               
+                  WR_DATA   0x000236    program     extern ..\lcd.asm               
+             lcdLongDelay   0x000247    program     static ..\lcd.asm               
+                 LLD_LOOP   0x000249    program     static ..\lcd.asm               
+              _.code_0046   0x00024c    program     static ..\lcd.asm               
+         i2c_common_setup   0x000250    program     extern ..\i2c_common.asm        
+              _.code_0010   0x000260    program     static ..\i2c_common.asm        
+                write_rtc   0x000262    program     extern ..\i2c_common.asm        
+              _.code_0016   0x000266    program     static ..\i2c_common.asm        
+              _.code_001E   0x00026e    program     static ..\i2c_common.asm        
+              _.code_002E   0x00027e    program     static ..\i2c_common.asm        
+              _.code_003E   0x00028e    program     static ..\i2c_common.asm        
+                   WR_ERR   0x000296    program     static ..\i2c_common.asm        
+                   WR_END   0x000297    program     static ..\i2c_common.asm        
+              _.code_004B   0x00029b    program     static ..\i2c_common.asm        
+                 read_rtc   0x00029d    program     extern ..\i2c_common.asm        
+              _.code_0051   0x0002a1    program     static ..\i2c_common.asm        
+              _.code_0059   0x0002a9    program     static ..\i2c_common.asm        
+              _.code_0069   0x0002b9    program     static ..\i2c_common.asm        
+              _.code_0074   0x0002c4    program     static ..\i2c_common.asm        
+              _.code_007C   0x0002cc    program     static ..\i2c_common.asm        
+              _.code_0087   0x0002d7    program     static ..\i2c_common.asm        
+              _.code_0093   0x0002e3    program     static ..\i2c_common.asm        
+                   RD_ERR   0x0002e5    program     static ..\i2c_common.asm        
+                   RD_END   0x0002e6    program     static ..\i2c_common.asm        
+              _.code_009A   0x0002ea    program     static ..\i2c_common.asm        
+              rtc_convert   0x0002ec    program     extern ..\i2c_common.asm        
+                p2p_write   0x0002fa    program     extern ..\i2c_common.asm        
+              _.code_00AE   0x0002fe    program     static ..\i2c_common.asm        
+              _.code_00B6   0x000306    program     static ..\i2c_common.asm        
+              _.code_00C6   0x000316    program     static ..\i2c_common.asm        
+                    W_END   0x00031e    program     static ..\i2c_common.asm        
+              _.code_00D2   0x000322    program     static ..\i2c_common.asm        
+                 p2p_read   0x000324    program     extern ..\i2c_common.asm        
+              _.code_00D8   0x000328    program     static ..\i2c_common.asm        
+              _.code_00E0   0x000330    program     static ..\i2c_common.asm        
+              _.code_00EB   0x00033b    program     static ..\i2c_common.asm        
+              _.code_00F7   0x000347    program     static ..\i2c_common.asm        
+                    R_END   0x000348    program     static ..\i2c_common.asm        
+              _.code_00FC   0x00034c    program     static ..\i2c_common.asm        
+                  lcd_tmp   0x000070       data     static ..\lcd.asm               
+                   lcd_d1   0x000071       data     static ..\lcd.asm               
+                   lcd_d2   0x000072       data     static ..\lcd.asm               
+                      com   0x000073       data     static ..\lcd.asm               
+                      dat   0x000074       data     static ..\lcd.asm               
+                   COUNTH   0x000075       data     static ..\main.asm              
+                   COUNTM   0x000076       data     static ..\main.asm              
+                   COUNTL   0x000077       data     static ..\main.asm              
+
+
